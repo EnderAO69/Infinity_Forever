@@ -14,7 +14,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-
+public static final Block CATACLYSMN_BOMB = registerBlock("cataclysmn_bomb",
+        new Block(FabricBlockSettings.of(Material.TNT).strength(1f)), ItemGroup.COMBAT);
 
 
 
