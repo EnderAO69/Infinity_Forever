@@ -1,6 +1,6 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "layer0": "infinityforever:item/cataclysmn_bomb"
+    "all": "infinityforever:block/cataclysm_bomb"
   }
 }
