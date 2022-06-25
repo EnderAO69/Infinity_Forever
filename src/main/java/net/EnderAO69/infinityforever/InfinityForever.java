@@ -2,6 +2,7 @@ package net.EnderAO69.infinityforever;
 
 import net.EnderAO69.infinityforever.block.ModBlocks;
 import net.EnderAO69.infinityforever.item.ModItems;
+import net.EnderAO69.infinityforever.world.dimension.ModDimensions;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -16,5 +17,6 @@ public class InfinityForever implements ModInitializer {
 	public void onInitialize() {
 		ModBlocks.registerModBlocks();
 		ModItems.registerModItems();
+		ModDimensions.register();
 	}
 }

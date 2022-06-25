@@ -14,8 +14,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
 
-    public static final Block CATACLYSM_BOMB = registerBlock("cataclysm_bomb",
-            new Block(FabricBlockSettings.of(Material.METAL).strength(4f).requiresTool()), ItemGroup.REDSTONE);
+
 
 
 
